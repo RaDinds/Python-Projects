@@ -3,7 +3,6 @@
 # Importing important librares
 import random
 import requests
-import re
 
 # Words web link, Get the words.
 word_site = "https://www.mit.edu/~ecprice/wordlist.10000"
@@ -42,7 +41,7 @@ for i in range(1, len(WORD) + 1):
     dashes = dashes + "_"
 
 # Greeting user.
-print(f"\n{user_name} you have {turns} choices Good luck!")
+print(f"\n{user_name} you have {turns} chances Good luck!")
 print(f"Guess the word {dashes}\n")
 
 
